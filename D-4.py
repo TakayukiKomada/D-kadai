@@ -1,15 +1,12 @@
 class MyCounterV1:
-    def __init__(self,value):
+    def __init__(self, value):
         self.value = value
 
     def count_up(self):
-        self.value = self.value+1
-        
-    
+        self.value = self.value + 1
+
 
 if __name__ == "__main__":
-
-
 
     counter1 = MyCounterV1(value=0)
     print(counter1.value)  # 0
@@ -28,4 +25,3 @@ if __name__ == "__main__":
 
     counter2.count_up()
     print(counter2.value)  # 9
-  
